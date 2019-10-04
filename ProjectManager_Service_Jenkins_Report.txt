@@ -1,0 +1,23 @@
+Started by user admin
+Running as SYSTEM
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\ProjectManagerService
+No credentials specified
+Cloning the remote Git repository
+Cloning repository http://172.18.2.18/swapnill.a12/ProjectManagerService
+ > git.exe init C:\Program Files (x86)\Jenkins\workspace\ProjectManagerService # timeout=10
+Fetching upstream changes from http://172.18.2.18/swapnill.a12/ProjectManagerService
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --progress http://172.18.2.18/swapnill.a12/ProjectManagerService +refs/heads/*:refs/remotes/origin/*
+ > git.exe config remote.origin.url http://172.18.2.18/swapnill.a12/ProjectManagerService # timeout=10
+ > git.exe config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe config remote.origin.url http://172.18.2.18/swapnill.a12/ProjectManagerService # timeout=10
+Fetching upstream changes from http://172.18.2.18/swapnill.a12/ProjectManagerService
+ > git.exe fetch --tags --progress http://172.18.2.18/swapnill.a12/ProjectManagerService +refs/heads/*:refs/remotes/origin/*
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 25538eb47de7fe6dea40d3c235d51d96c08bfe87 (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 25538eb47de7fe6dea40d3c235d51d96c08bfe87
+Commit message: "unit test project added"
+First time build. Skipping changelog.
+Finished: SUCCESS
